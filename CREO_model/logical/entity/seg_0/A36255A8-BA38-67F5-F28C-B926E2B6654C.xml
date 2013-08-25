@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A36255A8-BA38-67F5-F28C-B926E2B6654C" name="CREO_Escalation">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:29:42 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="escalation_id" id="62313F77-6691-6729-CB0F-F59E030CA9DA">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:29:49 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date" id="EA41D342-E99C-EBD4-13B9-12F4915A054F">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:30:04 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="amount" id="D54BD5B4-FEBB-5AD6-F5E3-8C6CA9FF0607">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:30:19 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+<Attribute name="percentage" id="C32CB188-DFB2-ACE4-6F5C-E81E9F7AAA90">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:32:44 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="description" id="81BBB168-A8D9-364B-47B8-AF65194126EF">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:33:00 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E93F73D5-08D8-9044-8F0F-159DCBCA5878" name="CREO_Escalation PK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:30:01 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62313F77-6691-6729-CB0F-F59E030CA9DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

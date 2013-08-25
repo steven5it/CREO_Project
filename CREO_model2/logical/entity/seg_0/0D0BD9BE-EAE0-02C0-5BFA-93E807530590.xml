@@ -1,0 +1,279 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D0BD9BE-EAE0-02C0-5BFA-93E807530590" name="CREO_contact">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:05:53 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contact_id" id="FADA8FB4-B0C4-1824-E359-27DAFBEF6481">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:06:31 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="internal_name" id="C188EEF5-CAB1-F32D-0526-2C66FF821E6B">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:06:46 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="type" id="D0A7F135-5102-AA8B-5D36-3A4BE8144FDE">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:07:03 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="department" id="21E3573B-07A1-E5B6-F8C4-94928A64F327">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:07:19 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="vid" id="9837F351-D3F6-5898-F9D9-228E29372ED6">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:10:08 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="account_number" id="C458D286-0B66-9F56-9243-CE964A8FC0BA">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:10:43 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="primary_contact_name" id="F78FAEB9-F59D-858C-7F67-301AD48565B3">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:10:54 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="vendor_name" id="63542131-FF5E-4504-F56B-BC531579E551">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:11:16 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="25D79CFD-5CE0-38AF-B7F3-902AB5F49907">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:12:29 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="80292A0F-5F12-60B0-D548-3E66DDEF8B56">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:12:43 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="phone" id="41F0F205-BF7B-E8DD-5F80-37800F335BA4">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:00 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="fax" id="5BC079BD-7327-123D-05EF-ADA1A3215B8B">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:12 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="email" id="3A3FA221-EF8F-0253-1686-B4A99C998B37">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:24 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="address" id="C09A569D-462B-685D-4C7B-66E75DB7DA33">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:34 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="7B4336AA-CE53-F5B2-B80F-8D0A5CE409BC">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:45 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="170BE9BD-9DCB-CD0D-9C9D-5836E2D49EB4">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:13:53 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="zip_code" id="C0643C6A-0266-5550-E11C-8C3E4A98A74B">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:14:05 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="country" id="A75A328C-3521-197D-6C4A-8DA3A42A55B6">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:14:15 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="contact_person" id="29162E31-4114-0F1D-8426-604C8FB14602">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 03:55:09 UTC</createdTime>
+<generatorID>1E04BC31-EA56-AD69-96F0-AC7752A3787E</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FADA8FB4-B0C4-1824-E359-27DAFBEF6481</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="688BE28C-3D34-529C-474F-8A4C12183457" name="CREO_contact PK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 22:06:42 UTC</createdTime>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FADA8FB4-B0C4-1824-E359-27DAFBEF6481</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

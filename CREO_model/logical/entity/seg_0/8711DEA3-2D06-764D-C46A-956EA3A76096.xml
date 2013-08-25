@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8711DEA3-2D06-764D-C46A-956EA3A76096" name="CREO_payment">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:36:48 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="payment_id" id="C6CC8CAD-D641-90A9-3C6A-C5E176D639FA">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:36:59 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="payment_number" id="F871C8E2-13A8-50DA-1328-FEF489FEB226">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:37:24 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="amount" id="BFC28E1A-E218-4662-A9B8-FD597EA67C2E">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:41:25 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+<Attribute name="description" id="75CD3AF6-BC8D-4320-845B-16FB09F3EDD5">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:41:33 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="due_date" id="325153EB-EAB4-C6A0-3ED8-30B5580ABEE9">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:41:49 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="payment_data" id="B3ABA331-D8F6-9EC9-94DE-F824ECB5AE9B">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:41:58 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="total_payments" id="C0090D59-A9F8-E8D1-AAE4-77EC45244E62">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:45:41 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>69230305-AB6A-99EB-35A1-CC306D543604</logicalDatatype>
+</Attribute>
+<Attribute name="item_ed" id="31075F77-7DDF-9B90-3C63-A6CC97234093">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:51:57 UTC</createdTime>
+<generatorID>96EE3147-9867-CC51-0608-BB800346C291</generatorID>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>18EF9AC3-9193-0EBE-F6A3-EC8E6D20B373</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="contact_id" id="7FB4D0BF-35B2-9470-14AC-A74BD3560064">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 03:54:59 UTC</createdTime>
+<generatorID>2C20D930-7B32-FF6B-E805-7F0712AFE895</generatorID>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FADA8FB4-B0C4-1824-E359-27DAFBEF6481</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C605FB7-DE00-64A1-12C8-3762258F6B32" name="CREO_payment PK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 21:37:09 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6CC8CAD-D641-90A9-3C6A-C5E176D639FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

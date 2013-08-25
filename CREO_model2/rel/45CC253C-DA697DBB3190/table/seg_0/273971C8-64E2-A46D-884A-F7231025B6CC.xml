@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="273971C8-64E2-A46D-884A-F7231025B6CC" name="CREO_cost">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>B98C88EA-7909-D501-034F-486956576819</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cost_id" id="034E7502-8EB5-6EE7-A0A4-C5D0746A722B">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>D93705CF-55C7-5C46-60BD-7458CD30D3EB</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="F95FFBEE-FBC2-5EA9-D1B6-8C02181CCCA5">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>5563A631-1770-7F34-8433-9ACC61518D39</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="3CCCE0C6-116D-CC27-F9DA-5330C12AE0E2">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>8EC0835E-8C7D-CA19-EF81-05719EA88442</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_incurred" id="70E2ED8D-E527-41AB-7BED-5A98589AFBA5">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>C41484D1-4479-A9CE-3C80-A26AA1E974A9</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="81532A3E-E216-1185-3D90-58EF4337D12C">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>D8D09618-F025-22FF-5998-C649E4AFCA00</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_paid" id="CC6B8DF0-5D7E-3B65-5718-B6856087C536">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>CC31269B-FD3A-8AE7-7C8F-B16CB7E385D3</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="property_id" id="99DD8D00-24E0-C218-AB3F-AD0F77BE6B72">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>119F5B68-5709-A2A7-7100-F161A1FF61EE</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4E971371-ABEB-8F66-AFE4-FE39F6A941D1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB929B77-7CAF-66EA-9C5A-82D7F3A1007D" referredColumn="4E971371-ABEB-8F66-AFE4-FE39F6A941D1"/>
+</associations>
+</Column>
+<Column name="contact_id" id="DB2AFAFE-8B69-C852-4A5C-AA80B1EC33D2">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>51171F7D-EC51-8F57-CE90-3DAA35B59DEE</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D0464572-E6B5-5C7E-6175-273720668DE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="266B68AF-0953-DE3B-0866-BB9A2A5381FF" referredColumn="D0464572-E6B5-5C7E-6175-273720668DE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A67AD1A-6567-8065-B57E-C3CEE4A3B68B" name="CREO_cost_PK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>4A161879-EC11-1229-B4D6-92329AC00AFC</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034E7502-8EB5-6EE7-A0A4-C5D0746A722B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00115142-C8B8-8FAF-2EB6-C82FD22738CE" name="CREO_cost_CREO_contact_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>610C6CF3-EC8F-7E6C-0F5D-F1A914EF20A7</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2AFAFE-8B69-C852-4A5C-AA80B1EC33D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F525E9D9-F0AA-A7B5-62D1-47E3351E970A" name="CREO_cost_CREO_property_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>BA9C8ECE-5950-174D-F4F2-88B57598871C</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99DD8D00-24E0-C218-AB3F-AD0F77BE6B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

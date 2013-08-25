@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CREO_model" id="006876EF-8D23-7374-2F4F-7A957A2C6123" version="3.5">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:41:51 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>006876EF-8D23-7374-2F4F-7A957A2C6123</designId>
+</OSDM_Design>

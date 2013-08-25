@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8E709CB-BA46-97E6-E11E-EAD0C8DA2C23" name="CREO_document">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>CDB03445-A463-A44C-6D82-811496F9D4D8</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="38D0F632-68A4-87D6-A141-72B1FBAB14DB">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>CC5A3704-A47C-0D6B-5316-DF4688BF8C37</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filename" id="5D61F1BE-7ACE-E459-5D9C-1336BD7D4F59">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>624B2F6B-CDF8-FFA0-232C-3A18FE6F66EA</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_mimetype" id="32DBE412-E5A5-4A22-1310-792A588A86EE">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>F3286B94-7B94-FCEF-73EE-1BBEBD596DB6</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_charset" id="1ABE5231-C697-398F-4AC8-30176AA2FD1C">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>F57189F7-5319-868C-BB42-248C57862EEB</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_blob" id="5BD33F60-67A8-146C-EC61-405832B31443">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>A87A6CC2-FB32-F84D-1D99-920B8729E605</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_comments" id="27BF3348-BCD5-CE2A-5035-FBF44618838C">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>CD70200A-9043-F70F-0D62-333DD42AE7D3</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tags" id="2B7B2302-05B9-BBDB-D81D-409EF03DD366">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>05E574B2-4A51-C4D7-6D94-9142E8694C8B</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lease_id" id="F849CF3F-BB9D-4D10-CA7C-827D9D1419A4">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>3AAB348B-B417-1E2A-70F5-3B824F34BF64</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>731A667F-0C30-384B-5B70-F8B467DDE18E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81F6167C-31CC-BB7C-7575-673B6234C09E" referredColumn="731A667F-0C30-384B-5B70-F8B467DDE18E"/>
+</associations>
+</Column>
+<Column name="property_id" id="F09BD4A7-5DCD-425D-363F-06CCAD415286">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>8414C2EA-76E4-7B41-83B5-C5BD19130C48</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4E971371-ABEB-8F66-AFE4-FE39F6A941D1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8E1B232-FA41-AACA-0F63-16FDAEE384D9" referredColumn="4E971371-ABEB-8F66-AFE4-FE39F6A941D1"/>
+</associations>
+</Column>
+<Column name="contact_id" id="ED4EA4E8-8121-2E5C-0CC3-48AC8C6FB17C">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>16AB9EA1-710E-177A-7C4D-1C897B260380</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D0464572-E6B5-5C7E-6175-273720668DE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41F594E7-C58A-1DE8-6D9D-052E97793AD8" referredColumn="D0464572-E6B5-5C7E-6175-273720668DE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B3DE10F-737A-B4ED-9E22-E8A176041CCC" name="CREO_document_PK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>532C0A19-6497-C01F-74EB-C132C6813061</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D0F632-68A4-87D6-A141-72B1FBAB14DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="797949B3-5105-8217-5E97-F9FE557B88CB" name="CREO_document_CREO_property_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>3C23DDAA-5D00-5020-6808-5DB20886EE17</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09BD4A7-5DCD-425D-363F-06CCAD415286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37CE1487-7CA8-2050-310B-D9AA841B16B1" name="CREO_document_CREO_contact_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>427DB55D-A87E-A952-CACB-3F3432B352A8</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED4EA4E8-8121-2E5C-0CC3-48AC8C6FB17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C160E87A-D663-30FD-D2D7-1511F3B232BE" name="CREO_document_CREO_lease_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-18 20:25:01 UTC</createdTime>
+<generatorID>2B773EC5-E085-6978-065E-A6F1F55AE2CA</generatorID>
+<ownerDesignName>CREO_model2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F849CF3F-BB9D-4D10-CA7C-827D9D1419A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4531F2C4-B66D-5900-1172-E5A9E1200C13" name="CREO_lease_item">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:47:52 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_ed" id="18EF9AC3-9193-0EBE-F6A3-EC8E6D20B373">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:48:55 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="description" id="398E5167-B63C-453B-D881-7D4BE5E5CBCF">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:49:32 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="start_date" id="F1C4459A-85D5-8CA7-7EF7-2F4D115D58C2">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:49:54 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="end_date" id="A866853E-E6C5-B802-46D4-22C5C51EB14D">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:50:04 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="rent" id="6A6F7A78-A076-E977-DB4D-7DC2DF434308">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:50:12 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+<Attribute name="lease_id" id="4DC5A686-C134-4270-933B-FCB71C78AD62">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:55:51 UTC</createdTime>
+<generatorID>3150BAFB-574F-5439-7F8C-7D71787AA99E</generatorID>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<referedAttribute>C33A22FA-D196-DF27-EC05-EC3D230CE614</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="property_id" id="A1D59C16-C305-2AF2-372C-A262D23B40B5">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:57:30 UTC</createdTime>
+<generatorID>35BFD0AC-46E8-6A28-987F-1498A43911F3</generatorID>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9FD55B34-1196-E6D9-22C1-E72B00FC2B1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCEF30B0-9C23-E295-2024-427E4EE2879E" name="CREO_item_ordid_itemid_pk">
+<createdBy>Steven</createdBy>
+<createdTime>2013-06-17 04:49:07 UTC</createdTime>
+<ownerDesignName>CREO_model</ownerDesignName>
+<engineerTo>
+<item key="45CC253C-633B-B0B4-6655-DA697DBB3190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18EF9AC3-9193-0EBE-F6A3-EC8E6D20B373</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
